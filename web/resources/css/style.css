@@ -1,0 +1,1030 @@
+/*!
+ * Style custom
+ * Codeando México 
+ !*/
+
+/** FONTS **/
+@font-face {
+    font-family: 'exo_2bold';
+    src: url('../fonts/exo2-bold-webfont.eot');
+    src: url('../fonts/exo2-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-bold-webfont.woff2') format('woff2'),
+         url('../fonts/exo2-bold-webfont.woff') format('woff'),
+         url('../fonts/exo2-bold-webfont.ttf') format('truetype'),
+         url('../fonts/exo2-bold-webfont.svg#exo_2bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exo_2light';
+    src: url('../fonts/exo2-light-webfont.eot');
+    src: url('../fonts/exo2-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-light-webfont.woff2') format('woff2'),
+         url('../fonts/exo2-light-webfont.woff') format('woff'),
+         url('../fonts/exo2-light-webfont.ttf') format('truetype'),
+         url('../fonts/exo2-light-webfont.svg#exo_2light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exo_2thin';
+    src: url('../fonts/exo2-thin-webfont.eot');
+    src: url('../fonts/exo2-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-thin-webfont.woff2') format('woff2'),
+         url('../fonts/exo2-thin-webfont.woff') format('woff'),
+         url('../fonts/exo2-thin-webfont.svg#exo_2thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exo_2regular';
+    src: url('../fonts/exo2-regular-webfont.eot');
+    src: url('../fonts/exo2-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-regular-webfont.woff2') format('woff2'),
+         url('../fonts/exo2-regular-webfont.woff') format('woff'),
+         url('../fonts/exo2-regular-webfont.ttf') format('truetype'),
+         url('../fonts/exo2-regular-webfont.svg#exo_2regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exo_2medium';
+    src: url('../fonts/exo2-medium-webfont.eot');
+    src: url('../fonts/exo2-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-medium-webfont.woff2') format('woff2'),
+         url('../fonts/exo2-medium-webfont.woff') format('woff'),
+         url('../fonts/exo2-medium-webfont.ttf') format('truetype'),
+         url('../fonts/exo2-medium-webfont.svg#exo_2medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exo_2semi_bold';
+    src: url('../fonts/exo2-semibold-webfont.eot');
+    src: url('../fonts/exo2-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/exo2-semibold-webfont.woff') format('woff'),
+         url('../fonts/exo2-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/exo2-semibold-webfont.svg#exo_2semi_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'exo_2extra_light';
+    src: url('../fonts/exo2-extralight-webfont.eot');
+    src: url('../fonts/exo2-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/exo2-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/exo2-extralight-webfont.woff') format('woff'),
+         url('../fonts/exo2-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/exo2-extralight-webfont.svg#exo_2extra_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** GLOBAL STYLE  **/
+body,html {
+  height: 100%;
+}
+
+/** SECTION HEADER  **/
+.navbar-brand {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 30px;  
+}
+.navbar-brand img {
+    width: 50%;
+}
+.navbar {
+    border-radius: 0px;
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+.navbar-right {
+    position: relative;
+    top: 35px;
+    right: 30px;
+}
+.navbar-inverse .navbar-nav>li {
+    color: white;
+}
+.navbar-nav>li:hover,
+.navbar-inverse .navbar-nav>li:hover {
+    color: #22D790 !important;   
+}
+.navbar-nav>li>span,
+.navbar-inverse .navbar-nav>li>span {
+    font-family: 'exo_2thin';
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 5px;
+    top: 8px;
+    position: relative;
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    padding: 0px !important;
+}
+.nav>li>a>img,
+.navbar-inverse .navbar-nav>li>a>img {
+    width: 44px;
+    height: 44px;
+}
+.facebook>span {
+    left: -5px;
+}
+.twitter {
+    margin-right: 20px;
+}
+.github>span,
+.twitter>span {
+    left: 3px;
+}
+.wide {
+    width:100%;
+    height:100%;
+    height:calc(100% - 1px);
+    background-image:url('../img/bg.jpg');
+    background-size:cover;
+}
+.wide img {
+    width:100%;
+}
+.title {
+    font-family: 'exo_2bold';
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    letter-spacing: 0.57px;
+    line-height: 80px;
+    position: relative;
+    top: 250px;
+    text-transform: uppercase;
+}
+.sub-title {
+    font-family: 'exo_2light';
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+    width: 55%;
+    letter-spacing: 1.83px;
+    line-height: 35px;
+    margin-top: 250px;
+}
+.text-bold {
+    font-weight: bold;
+}
+/** SECTION ABOUT  **/
+#about {
+    width: 100%;
+    background: transparent;
+    display: block;
+    height: auto;
+    position: relative;
+    top: -80px;
+}
+#what-do {
+    width: 100%;
+    margin: 0 auto;
+}
+#what-do .container-texto {
+    background-color: #22D790;
+    padding: 40px;
+}
+.parrafo {
+    font-family: 'exo_2bold';
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+    width: 75%;
+    padding: 20px;
+    border: 2px solid #86F6B8;
+}
+.task p {
+    font-family: 'exo_2bold';
+    font-size: 20px;
+    color: white;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    width: 70%;
+}
+.task hr {
+    border-top: 4px solid #86F6B8;
+    width: 20%;
+    float: left;
+    display: block;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.task div{
+    width: 100%;
+    height: 35px;
+}
+.text-center h3 {
+    margin-top: 0px;
+    color: #596072;
+    font-size: 42px;
+    font-family: 'exo_2bold';
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+/** SECTION PROYECTOS  **/
+.proyectos {
+    color: #596072;
+    text-align: center
+}
+.box-content {
+    border: 1px solid rgba(132, 143, 163, 0.26);
+}
+.box-content img {
+    width: 100%;
+    height: 250px;
+}
+.box {
+    max-width: 250px;
+    margin: 0 auto;
+}
+.progress {
+    height: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.progress-bar {
+    background: #E91852;
+}
+.box-content h4 {
+    font-size: 24px;
+    color: #596072;
+    font-family: 'exo_2regular';
+}
+.box-content p {
+    font-family: 'exo_2light';
+    color: #596072;
+    font-size: 16px;
+}
+.box-content p span{
+    font-family: 'exo_2bold' !important;
+} 
+.otro-padding {
+    padding: 19px;
+}
+.proyectos a:hover {
+    text-decoration: none !important;
+}
+.hover-shadow {
+    display: none;
+    width: 80%;
+    height: 100%;
+    background: rgba(47, 47, 47, .4);
+    z-index: 2;
+    position: absolute;
+}
+.proyectos a:hover .hover-shadow {
+    display: block;
+}
+
+/** SECTION PARTICIPACION  **/
+.other-margin-top {
+    margin-top: 50px !important;
+}
+.card .user{
+    border-radius: 50%;
+    display: block;
+    height: 120px;
+    margin: -55px auto 0;
+    overflow: hidden;
+    width: 120px;
+}
+.card .user img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 4px solid #FFFFFF;
+    width: 100%;
+}
+.img-circle {
+    width: 33%;
+    border: 10px solid #F5F5F6;
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+}
+.participacion h3 {
+    font-size: 28px;
+    color: #848DA2;
+    font-family: 'exo_2light';
+    text-align: left;
+}
+.participacion ul {
+    list-style: none;
+}
+.participacion ul li {
+    color: #2F374E;
+    font-family: 'exo_2regular';
+    font-size: 18px;
+}
+.participacion ul li span {
+    background-image: url('../img/square.png');
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 7px;
+    left: -10px;
+}
+.participacion ul .active {
+    color: #E91852;
+}
+.participacion ul .active span {
+    background-image: url('../img/squeare-active.png') !important;
+    border-radius: 50%;
+}
+
+/** SECTION HACKERS  **/
+.container-hackers {
+    width: 100%;
+    background: #22D790;
+    margin-top: 50px;
+    height: 450px;
+}
+.hackers .izq {
+    background: #22D790;
+    padding: 10px;
+}
+.container-hackers .der {
+    background-image: url('../img/hackers.jpg');
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    height: 450px;
+}
+.no-padding {
+    padding: 0px !important;
+}
+.izq h2 {
+    padding: 50px;
+    width: 60%;
+    margin-left: 100px;
+    display: block;
+    font-size: 40px;
+    color: white;
+    font-family: 'exo_2bold';
+    line-height: 42px;
+    letter-spacing: 0.32px;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+.color-red {
+    color: #E91852 !important;
+}
+.izq p,
+.izq h3 { 
+    width: 70%;
+    margin-left: 100px;
+    display: block;
+    font-size: 18px;
+    color: white;
+    font-family: 'exo_2light';
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 50px;
+}
+.izq h4 {
+    width: 21%;
+    background: white;
+    margin-left: 150px;
+    display: block;
+    font-size: 24px;
+    color: #596072;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.izq p span {
+    background: #23C183;
+    
+}
+
+/** SECTION PROPÓSITO  **/
+.newsletter h3,
+.proposito h3 {
+    margin-top: 0px;
+    color: #596072;
+    font-size: 42px;
+    font-family: 'exo_2semi_bold';
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.no-point{
+    list-style: none;
+}
+.proposito h4 {
+    margin-top: 0px;
+    color: #596072;
+    font-size: 25px;
+    font-family: 'exo_2semi_bold';
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.circulo {
+   font-family: 'exo_2light';
+    color: #E91852;
+    position: relative;
+    top: 2px;
+    font-size: 18px;
+}
+.change-color{
+    color: #2F374E !important;
+}
+.proposito p {
+    text-align: center;
+    font-size: 22px;
+    color: #2F374E;
+    font-style: italic;
+    font-family: 'exo_2regular';
+    width: 48%;
+    margin: 0 auto;
+}
+.unete {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    background: #E91852;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+    font-family: 'exo_2medium';
+}
+.unete:hover {
+    background: #BD1543;
+    color: white;
+}
+.container-newsletter {
+    width: 100%;
+    background: #DFE3EF;
+}
+
+/** SECTION NEWSLETTER  **/
+.newsletter p {
+    text-align: center;
+    font-size: 18px;
+    color: #2F374E;
+    font-family: 'exo_2regular';
+    width: 60%;
+    margin: 0 auto;
+}
+.container-form {
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+}
+.input-group,
+.container-form {
+    margin: 0 auto;
+}
+#email {
+    min-width: 300px;
+    height: 39px;
+    text-align: left;
+    color: #848DA2;
+    font-family: 'exo_2medium';
+    font-size: 18px;
+}
+.btn {
+    border-radius: 0px !important;
+}
+.btn-info {
+    background-color: #22D790;
+    border-color: white;
+    font-size: 18px;
+    font-family: 'exo_2medium';
+}
+.btn-info:hover {
+    background-color: #189D69;
+    border-color: white;
+}
+
+/** SECTION FOOTER  **/
+footer {
+    width: 100%;
+    background: black;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+footer span {
+    left: 10px !important;
+}
+footer .github span,
+footer .twitter span {
+    left: 20px !important;
+}
+footer a {
+    padding-bottom: 0px !important;
+}
+.menu-bottom {
+    position: relative;
+    margin-top: 110px;
+    margin-left: 150px;
+    color: #E1E4EB;
+    font-size: 16px;
+    font-family: 'exo_2extra_light';
+    border-left: 6px solid #86F6B8;
+}
+.menu-bottom ul {
+    list-style: none;
+    padding-left: 20px;
+}
+.ajuste-texto-2 {
+    font-family: 'exo_2extra_light';
+    color: white;
+}
+.ajuste-texto-2 span {
+    color: #22D790;
+    position: relative;
+    left: 0px !important;
+    top: 1px;
+}
+.ajuste-texto-2 a {
+    color: #DFE3EF !important;
+    cursor: pointer;
+}
+.nav>li>a:hover {
+    background-color: transparent;
+}
+.aparecer-respo{
+    display: none;
+}
+
+/** RESPONSIVE  **/
+@media (max-width: 767px) {
+    .navbar-inverse .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .navbar-toggle,
+    .quitar-respo {
+        display: none !important;
+    }
+    .aparecer-respo {
+        display: block !important;
+        top: 0;
+        right: 0;
+        position: absolute;
+        z-index: 100;
+        text-align: center;
+        width: 60%;
+        background: white;
+        background: rgba(47, 47, 47, 0.90);
+        top: 43px;
+    }
+    .aparecer-respo li {
+        color: #E1E4EB !important;
+        padding: 15px !important;
+        font-family: 'exo_2light' !important;
+            text-transform: uppercase;
+    }
+    .navbar-collapse {
+        border-color: transparent !important;
+    }
+    .navbar-brand {
+        top: 0px;
+    }
+    .navbar-brand img {
+        width: 200px !important;
+    }
+    .navbar-inverse .navbar-toggle {
+        background: #22D790;
+        right: 10px;
+    }
+    .navbar-inverse .navbar-toggle:hover {
+        background: #23C183;
+    }
+    .sub-title,
+    .title {
+        top: 100px !important;
+        font-size: 40px !important;
+    }
+    .sub-title{
+        margin-top: 100px !important;
+        font-size: 16px !important;
+    }   
+    .wide {
+        height: 400px !important;
+    }
+    .parrafo {
+        font-size: 20px !important;
+    }
+    .task p {
+        font-size: 15px !important;
+        width: 100% !important;
+    }
+    .text-center h3 {
+        font-size: 30px !important;
+    }
+    .hover-shadow {
+        width: 86% !important;
+    }
+    .box-content img {
+        height: 200px !important;
+    }
+    .otro-padding {
+        padding: 19px  !important;
+    }
+    .proyectos .col-sm-6 {
+        margin-bottom: 10px !important;
+    }
+    .participacion .col-xs-12,
+    .img-circle {
+        margin: 0 auto !important;
+        text-align: center !important;
+        float: inherit !important;
+    }
+    .participacion h3 {
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+    .participacion ul {
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+    .participacion ul li {
+        text-align: left !important;
+    }
+    .izq h2 {
+        font-size: 25px !important;
+    }
+    .izq h4,
+    #email,
+    .newsletter p,
+    .proposito p,
+    .izq p, .izq h3 {
+        font-size: 14px !important; 
+        width: 100% !important;
+    }
+    .container-hackers {
+        height: 300px !important;   
+    }
+    .btn-info {
+        font-size: 16px !important;   
+    }
+    .ajuste-texto-2 {
+        text-align: center !important;
+    }
+    footer .navbar-header {
+        margin: 0 auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    footer .navbar-brand {
+        left: inherit !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        display: block !important;
+    }
+}
+@media (max-width: 991px) {
+    .navbar-brand img {
+        width: 300px;
+    }
+    .navbar-nav>li>span, .navbar-inverse .navbar-nav>li>span {
+        font-size: 13px;
+    }
+    .nav>li>a>img, .navbar-inverse .navbar-nav>li>a>img {
+        width: 34px;
+        height: 34px;
+    }
+    .github>span, .twitter>span {
+        left: 1px;
+    }
+    .title {
+        font-size: 50px;
+        top: 140px;
+        width: 90%;
+        line-height: 60px;
+    }
+    .sub-title {
+        margin-top: 140px;
+        font-size: 20px;
+        width: 90%;
+    }
+    .wide {
+        height: 500px;
+    }
+    #what-do .container-texto {
+        padding: 25px;
+    }
+    .parrafo {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .task p {
+        font-size: 18px;
+    }
+    #proyectos-codeando {
+        position: relative;
+        top: -50px;
+    }
+    .text-center h3 {
+        font-size: 33px;
+    }
+    .box {
+        max-width: 278px;
+    }
+    .margen-respo {
+        position: relative;
+        top: 20px;
+    }
+    .box-content h4 {
+        font-size: 20px;
+    }
+    .otro-padding {
+        padding: 30px;
+    }
+    .other-margin-top {
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .img-circle {
+        float: left;
+        width: 25%;
+        margin-right: 22px;
+    }
+    .participacion h3 {
+        font-size: 26px;
+        margin-top: 0px;
+    }
+    .participacion ul li {
+        font-size: 14px;
+    }
+    .container-hackers .der {
+        display: none;
+    }
+    .izq h2 {
+        padding: 0px;
+        width: 80%;
+        text-align: center;
+        margin-left: 0px;
+        margin: 21px auto;
+        font-size: 30px;
+    }
+    .izq p, .izq h3 {
+        text-align: center;
+        width: 77%;
+        margin-left: 0px;
+        margin: 20px auto;
+        padding-left: 0px;
+        font-size: 16px;
+    }
+    .container-hackers {
+        height: 350px;
+    }
+    .izq h4 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .proposito p {
+        width: 90%;
+        font-size: 18px;
+    }
+    .unete {
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .newsletter p {
+        width: 100%;
+    }
+    footer .container {
+        width: 100%;
+    }
+    footer {
+        padding: 15px;
+    }
+    footer .navbar-right,
+    footer .navbar-brand {
+        top: 0px;
+    }
+    .menu-bottom {
+        margin-top: 90px;   
+        margin-bottom: 30px;
+    }
+    footer .navbar-brand img {
+        width: 250px;
+    }
+}
+/** iPad | max 1024px **/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .title {
+        font-size: 60px;
+        top: 150px;
+    }
+    .sub-title {
+        margin-top: 150px;
+        font-size: 20px;
+        width: 60%;
+    }
+    .wide {
+        height: 500px;
+    }
+    .parrafo {
+        width: 100%;
+        font-size: 27px;
+    }
+    .task p {
+        width: 100%;
+        font-size: 18px;
+    }
+    #what-do .container-texto {
+        padding: 20px;
+    }
+    .text-center h3 {
+        font-size: 38px;
+    }
+    .margen-respo {
+        position: relative;
+        top: 20px;
+    }
+    .img-circle,
+    .hover-shadow {
+        width: 55%;
+    }
+    .participacion ul li {
+        font-size: 16px;
+    }
+    .izq h2 {
+        padding: 0px;
+        font-size: 32px;
+        line-height: 32px;
+        margin-left: 70px;
+    }
+    .izq p,
+    .izq h3 {
+        font-size: 16px;
+        margin-left: 20px;
+        line-height: 22px;
+    }
+    .izq h4 {
+        width: 28%;
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .izq p {
+        width: 70%;
+    }
+    .container-hackers .der,
+    .container-hackers {
+        height: 398px;
+    }
+    .proposito p {
+        width: 70%;
+        font-size: 20px;
+    }
+    .unete {
+        font-size: 22px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .newsletter h3 {
+        font-size: 36px;
+        margin-top: 20px !important;
+    }
+    .btn-info,
+    #email,
+    .newsletter p {
+        font-size: 16px;
+    }
+    footer {
+        padding-top: 0px;
+    }
+    footer .navbar-header {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+    #what-do{
+        width: 90%;
+    }
+    footer .container {
+        width: 100%;
+    }
+    izq p,
+    .izq h3,
+    .izq h2 {
+        margin-left: 50px;
+    }
+    .izq h4 {
+        margin-left: 88px;
+    }
+    .izq h2 {
+        margin-left: 50px;
+        padding: 40px;
+        width: 80%;
+        padding-bottom: 10px;
+    }
+    .izq p, .izq h3 {
+        margin-left: 50px;
+        padding-left: 40px;
+        font-size: 17px;
+        width: 60%;
+    }
+}
+@media (max-width: 415px) {
+    .title {
+        top: 80px !important;
+        font-size: 17px !important;
+        line-height: 20px !important;
+    }
+    .sub-title {
+        top: 80px !important;
+        font-size: 13px !important;
+        line-height: 20px !important;
+    }
+    .wide {
+        height: 300px !important;
+    }
+    .navbar-brand img {
+        width: 180px !important;
+    }
+    .parrafo {
+        font-size: 17px !important;
+        line-height: 22px;
+        padding: 15px;
+    }
+    #what-do .container-texto {
+        padding: 15px;
+    }
+    .menu-bottom {
+        margin-left: 15px;
+    }
+    .izq h2 {
+        font-size: 17px !important;
+        line-height: 22px;
+    }
+    .izq p, .izq h3 {
+        font-size: 14px !important;
+        line-height: 22px;
+    }
+    .img-circle {
+        width: 60%;
+    }
+    .participacion ul {
+        width: 100% !important;
+        padding-left: 0px;
+    }
+    .task {
+        width: 100% !important;
+    }
+    #proyectos-codeando,
+    .proyectos,
+    .participacion ,
+    .participacion .col-xs-12 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .box-content img {
+        height: 150px !important;
+    }
+    .box-content p,
+    .box-content h4 {
+        font-size: 14px !important;
+    }
+    .participacion ul li span {
+        display: none !important;
+    }
+    .participacion ul li {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+    .navbar-header {
+		width:100% !important;
+	}
+}
