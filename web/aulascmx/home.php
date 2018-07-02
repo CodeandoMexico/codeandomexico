@@ -42,7 +42,7 @@
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="logo">
-			<img src="img/logo.png" alt=""><!-- Logo -->
+			<img src="../img/logo.png" alt=""><!-- Logo -->
 		</div>
 		<!-- Navigation -->
 		<div class="responsive"><i class="fa fa-bars"></i></div>
@@ -69,7 +69,7 @@
 		</div>
 		<!-- slider -->
 		<div id="hero-slider" class="owl-carousel">
-			<div class="item  hero-item" data-bg="img/cover.png"></div>
+			<div class="item  hero-item" data-bg="../img/cover.png"></div>
 			<!--<div class="item  hero-item" data-bg="img/02.jpg"></div> -->
 		</div>
 	</div>
@@ -174,7 +174,7 @@
 							<p>Mi nombre es Jessica Arias, tengo 34 años y comencé a estudiar la carrera de Diseño Gráfico. Participar en el programa de Aulas en Zapopan fue una experiencia muy enriquecedora</p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="img/avatar/01.jpg" alt="">
+									<img src="../img/avatar/01.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Jessica Arias</h2>
@@ -188,7 +188,7 @@
 							<p>Tengo un negocio en el área automotriz, pero quería expandirme y vender otras cosas. Mi objetivo era aprender a hacer mis paginas web para vender dentro de la ciudad y crecer mi negocio. </p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="img/avatar/02.jpg" alt="">
+									<img src="../img/avatar/02.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Lizbeth Castillo</h2>
@@ -202,7 +202,7 @@
 							<p>Dediqué mi desarrollo en la industria minera, hasta que me di cuenta que debía generar proyectos con un impacto social. Actualmente gestiono dos empresas sociales que ayudan a </p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="img/avatar/01.jpg" alt="">
+									<img src="../img/avatar/01.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Jair Chan</h2>
@@ -216,7 +216,7 @@
 							<p>Soy Jonathan y me gradué como Licenciado en Sistemas Computacionales, sin embargo, considero que no obtuve suficientes conocimientos sobre desarrollo web en la universidad. </p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="img/avatar/02.jpg" alt="">
+									<img src="../img/avatar/02.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Jonathan Saavedra</h2>
@@ -428,22 +428,22 @@
 			<div class="row align-items-center">
 				<div class="col-md-3 align-self-center">
 					
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
 					
 				</div>
 				<div class="col-md-3 align-self-center">
 					
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
 				
 				</div>
 				<div class="col-md-3 align-self-center">
 					
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
 					
 				</div>
 				<div class="col-md-3 align-self-center">
 					
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
 				
 				</div>	
 			</div>
@@ -528,11 +528,11 @@
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/magnific-popup.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/magnific-popup.min.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
+	<script src="../js/circle-progress.min.js"></script>
+	<script src="../js/main.js"></script>
 </body>
 </html>
