@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=http://www.codeandomexico.org/aulascmx/home.php" />
+  <meta http-equiv="refresh" content="0; url=https://www.codeandomexico.org/aulascmx/home.html" />
 </head>
 <body>
 
