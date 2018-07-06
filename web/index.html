@@ -239,7 +239,7 @@
         <div class="text-center proposito">
             <h3 class="other-margin-top">Nuestro propósito</h3>
             <p>Codeando México es una comunidad tecnológica que busca desarrollar tecnología para construir un mejor país de manera abierta y colaborativa.</p>
-            <a href="https://codeandomexico.org/registrate" class="btn unete">Únete</a>
+            <a href="http://bit.ly/2KVU2jq" class="btn unete">Únete</a>
             <h4 class="text-bold">Creemos en el potencial de la tecnología para:</h4>
                 <ul class="no-point">
                     <li>&lt;<span class="circulo"> RESOLVER PROBLEMAS PÚBLICOS Y SOCIALES </span>&gt;</li>
