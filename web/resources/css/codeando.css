@@ -1,0 +1,195 @@
+/*
+ * Custom CodeandoMexico stylesheet
+ * based on bootstrap 4
+ */
+
+/* :root {
+    --green: #00efac;
+    --green-light: #f8fefe;
+    --purple: #7754e2;
+    --purple-hover: ##6439bc;
+    --purple-dark: #2b283b;
+    --purple-light: #f7f6fc;
+ } */
+
+
+ body {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     color: #4e5162;
+ }
+ h1,h2,h3,h4,h5,h6 {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+ }
+
+
+.font-green {
+    color: #00efac;
+}
+.font-purple {
+    color: #7754e2;
+}
+.font-dark-purple {
+    color: #2b283b;
+}
+
+
+.bg-purple {
+    background-color: #f7f6fc;
+}
+
+
+.btn-purple {
+    background-color: #7754e2;
+    border-bottom: 3px solid #6439bc;
+    box-shadow: inset 0 2px 0px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.4);
+    color: #fff;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+    background-color: #6439bc;
+    box-shadow: inset 0 2px 0px rgba(255,255,255,0), 0 2px 2px rgba(0,0,0,0);
+    color: #fff;
+}
+
+
+
+.img-colab {
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.tree {
+    background: #00efac;
+    border-radius: 25px 0 0 25px;
+    height: 50px;
+    width: 25px;
+    position: relative;
+    top: -15px;
+    margin-right: 70px;
+}
+    .tree::before {
+        background: #01cfcd;
+        border-radius: 0 25px 25px 0;
+        content: " ";
+        display: block;
+        height: 50px;
+        width: 25px;
+        position: absolute;
+        right: -25px;
+    }
+    .tree::after {
+        border-style: solid;
+        border-width: 0px 4px 54px 4px;
+        border-color: transparent transparent #6439bc transparent;
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        right: -4px;
+        bottom: -15px;
+    }
+.old-tree {
+    background: #00efac;
+    border-radius: 45px 0 0 40px;
+    height: 80px;
+    width: 40px;
+    position: relative;
+    top: -15px;
+    margin-left: -60px;
+    z-index: -1;
+}
+    .old-tree::before {
+        background: #01cfcd;
+        border-radius: 0 45px 40px 0;
+        content: " ";
+        display: block;
+        height: 80px;
+        width: 40px;
+        position: absolute;
+        right: -40px;
+    }
+    .old-tree::after {
+        border-style: solid;
+        border-width: 0px 4px 74px 4px;
+        border-color: transparent transparent #6439bc transparent;
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        right: -4px;
+        bottom: -15px;
+    }
+
+
+.house {
+    background: #f3f0fb;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+    .house::after {
+        background: #ded4f7;
+        content: " ";
+        display: block;
+        height: 30px;
+        width: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 25px;
+    }
+
+
+.build {
+    background: #f8f7ff;
+    height: 140px;
+    width: 70px;
+    margin-right: 70px;
+    position: relative;
+}
+.build::before {
+    background: #f3f0fb;
+    content: " ";
+    display: block;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    right: -70px;
+    bottom: 0;
+}
+.build::after {
+background: repeating-linear-gradient(
+  to right,
+  #ded4f7,
+  #ded4f7 20px,
+  transparent 20px,
+  transparent 70px
+);
+    content: " ";
+    display: block;
+    height: 30px;
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+}
+
+
+.list-colab {
+    background-color: #f8fefe;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+}
+    .list-colab li {
+        padding: 15px 0;
+    }
+    .list-colab li::before {
+        content: "< ";
+        color: #7754e2;
+    }
+    .list-colab li::after {
+        content: " />";
+        color: #7754e2;
+    }
