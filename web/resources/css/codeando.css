@@ -40,6 +40,14 @@
 }
 
 
+.bt-green {
+    border-top: 4px solid #00efac;
+}
+.bb-green {
+    border-bottom: 4px solid #00efac;
+}
+
+
 .btn-purple {
     background-color: #7754e2;
     border-bottom: 3px solid #6439bc;
@@ -159,13 +167,7 @@
     bottom: 0;
 }
 .build::after {
-background: repeating-linear-gradient(
-  to right,
-  #ded4f7,
-  #ded4f7 20px,
-  transparent 20px,
-  transparent 70px
-);
+    background: repeating-linear-gradient(to right, #ded4f7, #ded4f7 20px, transparent 20px, transparent 70px);
     content: " ";
     display: block;
     height: 30px;

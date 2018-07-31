@@ -11,70 +11,176 @@
     <link rel="icon" type="image/png" href="resources/img/favicon.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:700">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="resources/css/codeando.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- colabora -->
-    <section class="container-fluid p-5">
-        <h6 class="font-green mb-0">COLABORACION</h6>
-        <h1 class="font-dark-purple mt-0">COLABORA CON NOSOTROS</h1>
-
-        <div class="row">
-            <div class="col-sm mt-5">
-                <div class="img-colab">
-                    <div class="tree"></div>
-                    <div class="house"></div>
-                </div>
-                <h4 class="font-dark-purple">Instituciones P&uacute;blicas</h4>
-                <p>Podemos desarrollar en conjunto proyectos y herramientas innovadoras que:</p>
-                <ul class="list-colab">
-                    <li>Integren tecnolog&iacute;a para mejorar los servicios, metodolog&iacute;as y operaciones en el sector p&uacute;blico.</li>
-                    <li>Contribuyan en la apertura de datos y procesos de gobierno, fortaleciendo la transparencia y rendici&oacute;n de cuentas.</li>
-                    <li>Resuelvan problem&aacute;ticas espec&iacute;ficas de la ciudad, detectadas a trav&eacute;s de metodolog&iacute;as de trabajo colaborativo entre el gobierno y la comunidad.</li>
-                    <li>Disminuyan la brecha de comunicaci&oacute;n entre la sociedad y el gobierno.</li>
-                    <li>Fomenten la participaci&oacute;n ciudadana.</li>
-                </ul>
-            </div>
-            <div class="col-sm mt-5">
-                <div class="img-colab">
-                    <div class="build"></div>
-                </div>
-                <h4 class="font-dark-purple">Empresas</h4>
-                <p>Si eres una empresa y deseas involucrarte con nosotros, estas son algunas ideas de c&oacute;mo contribuir.</p>
-                <ul class="list-colab">
-                    <li>Donar tiempo y recurso humano para codear (si eres una empresa de desarrollo de software)</li>
-                    <li>Uso gratuito de espacios para eventos, meetups, juntas, etc.</li>
-                    <li>Financiar un proyecto de tecnolog&iacute;a c&iacute;vica y/o a los voluntarios que colaboren.</li>
-                    <li>Donar productos (Software, hardware, mobiliario, art&iacute;culos de oficina, playeras, etc.)</li>
-                    <li>Gestionar espacios dentro de la empresa para hablar de Codeando M&eacute;xico.</li>
-                    <li>¡Otras ideas que se te ocurran!</li>
-                </ul>
-            </div>
-            <div class="col-sm mt-5">
-                <div class="img-colab">
-                    <div class="tree"></div>
-                    <div class="old-tree"></div>
-                </div>
-                <h4 class="font-dark-purple">ONG's</h4>
-                <p>Podemos desarrollar en conjunto proyectos y herramientas innovadoreas que:</p>
-                <ul class="list-colab">
-                    <li>Donar tiempo y recurso humano para codear (si eres una empresa de desarrollo de software)</li>
-                    <li>Uso gratuito de espacios para eventos, meetups, juntas, etc.</li>
-                    <li>Financiar un proyecto de tecnolog&iacute;a c&iacute;vica y/o a los voluntarios que colaboren.</li>
-                    <li>Donar productos (Software, hardware, mobiliario, art&iacute;culos de oficina, playeras, etc.)</li>
-                    <li>Gestionar espacios dentro de la empresa para hablar de Codeando M&eacute;xico.</li>
-                    <li>¡Otras ideas que se te ocurran!</li>
-                </ul>
-            </div>
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white bt-green" role="navigation">
+        <a class="navbar-brand" href="#inicio">CodeandoMexico</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarToggle">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#comunidad">Comunidad</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#colabora">Colaboracion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-5 d-none d-md-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-medium"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-slack"></i></a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="text-center bg-purple p-5 mt-5">
-            <h4 class="font-purple">Colabora con Codeando M&eacute;xico</h4>
-            <p>¿Perteneces a una instiruci&oacute;n p&uacute;blica o empresa y deseas colaborar con nosotros?</p>
-            <button class="btn btn-purple py-3 px-5" type="button">Contactar</button>
+    <!-- inicio -->
+    <section id="inicio" class="container-fluid p-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xs-8 col-md-7 text-center my-5">
+                <h1>Generamos nuevas formas de participaci&oacute;n ciudadana a trav&eacute;s de la tecnolog&iacute;a.</h1>
+            </div>
         </div>
     </section>
 
+    <!-- proyectos -->
+    <section id="proyectos">
+        <div class="container-fluid p-5">
+            <h6 class="font-green mt-5 mb-0">CON&Oacute;CE</h6>
+            <h1 class="font-dark-purple mt-0">PROYECTOS</h1>
+        </div>
+    </section>
+
+    <!-- comunidad -->
+    <section id="comunidad">
+        <div class="container-fluid p-5">
+            <h6 class="font-green mt-5 mb-0">&Uacute;NETE</h6>
+            <h1 class="font-dark-purple mt-0">COMUNIDAD</h1>
+        </div>
+    </section>
+
+    <!-- colabora -->
+    <section id="colabora">
+        <div class="container-fluid p-5">
+            <h6 class="font-green mt-5 mb-0">COLABORACION</h6>
+            <h1 class="font-dark-purple mt-0">COLABORA CON NOSOTROS</h1>
+            <div class="row">
+                <div class="col-sm mt-5">
+                    <div class="img-colab">
+                        <div class="tree"></div>
+                        <div class="house"></div>
+                    </div>
+                    <h4 class="font-dark-purple">Instituciones P&uacute;blicas</h4>
+                    <p>Podemos desarrollar en conjunto proyectos y herramientas innovadoras que:</p>
+                    <ul class="list-colab">
+                        <li>Integren tecnolog&iacute;a para mejorar los servicios, metodolog&iacute;as y operaciones en el sector p&uacute;blico.</li>
+                        <li>Contribuyan en la apertura de datos y procesos de gobierno, fortaleciendo la transparencia y rendici&oacute;n de cuentas.</li>
+                        <li>Resuelvan problem&aacute;ticas espec&iacute;ficas de la ciudad, detectadas a trav&eacute;s de metodolog&iacute;as de trabajo colaborativo entre el gobierno y la comunidad.</li>
+                        <li>Disminuyan la brecha de comunicaci&oacute;n entre la sociedad y el gobierno.</li>
+                        <li>Fomenten la participaci&oacute;n ciudadana.</li>
+                    </ul>
+                </div>
+                <div class="col-sm mt-5">
+                    <div class="img-colab">
+                        <div class="build"></div>
+                    </div>
+                    <h4 class="font-dark-purple">Empresas</h4>
+                    <p>Si eres una empresa y deseas involucrarte con nosotros, estas son algunas ideas de c&oacute;mo contribuir.</p>
+                    <ul class="list-colab">
+                        <li>Donar tiempo y recurso humano para codear (si eres una empresa de desarrollo de software)</li>
+                        <li>Uso gratuito de espacios para eventos, meetups, juntas, etc.</li>
+                        <li>Financiar un proyecto de tecnolog&iacute;a c&iacute;vica y/o a los voluntarios que colaboren.</li>
+                        <li>Donar productos (Software, hardware, mobiliario, art&iacute;culos de oficina, playeras, etc.)</li>
+                        <li>Gestionar espacios dentro de la empresa para hablar de Codeando M&eacute;xico.</li>
+                        <li>¡Otras ideas que se te ocurran!</li>
+                    </ul>
+                </div>
+                <div class="col-sm mt-5">
+                    <div class="img-colab">
+                        <div class="tree"></div>
+                        <div class="old-tree"></div>
+                    </div>
+                    <h4 class="font-dark-purple">ONG's</h4>
+                    <p>Podemos desarrollar en conjunto proyectos y herramientas innovadoreas que:</p>
+                    <ul class="list-colab">
+                        <li>Donar tiempo y recurso humano para codear (si eres una empresa de desarrollo de software)</li>
+                        <li>Uso gratuito de espacios para eventos, meetups, juntas, etc.</li>
+                        <li>Financiar un proyecto de tecnolog&iacute;a c&iacute;vica y/o a los voluntarios que colaboren.</li>
+                        <li>Donar productos (Software, hardware, mobiliario, art&iacute;culos de oficina, playeras, etc.)</li>
+                        <li>Gestionar espacios dentro de la empresa para hablar de Codeando M&eacute;xico.</li>
+                        <li>¡Otras ideas que se te ocurran!</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center bg-purple p-5 mt-5">
+                <h4 class="font-purple">Colabora con Codeando M&eacute;xico</h4>
+                <p>¿Perteneces a una instiruci&oacute;n p&uacute;blica o empresa y deseas colaborar con nosotros?</p>
+                <button class="btn btn-purple py-3 px-5" type="button">Contactar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto" class="bb-green bg-purple">
+        <div class="container-fluid p-5">
+            <h4 class="font-purple">Newsletter</h4>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid p-5">
+            <div class="text-center">
+                <div class="">
+                    <a class="navbar-brand" href="#inicio">CodeandoMexico</a>
+                </div>
+                <div class="">
+                    <a href="#">Proyectos abiertos</a>
+                    <a href="#">Participa</a>
+                    <a href="#">Comunidad</a>
+                    <a href="#">Nuestro Prop&oacute;sito</a>
+                    <a href="#">Newsletter</a>
+                </div>
+                <div class="">
+                    <p>Mant&eacute;nte en Contacto</p>
+                </div>
+                <div class="">
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
+                    <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-slack"></i></a>
+                </div>
+                <div class="">
+                    <p>Derechos reservados 2018 &copy;</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
