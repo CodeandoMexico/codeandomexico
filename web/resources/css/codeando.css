@@ -14,12 +14,11 @@
 
 
  body {
-     font-family: 'Open Sans', sans-serif;
-     font-size: 14px;
+     font-family: 'Noto Sans', sans-serif;
      color: #4e5162;
  }
  h1,h2,h3,h4,h5,h6 {
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Encode Sans Expanded', sans-serif;
      font-weight: 700;
  }
 
@@ -37,6 +36,14 @@
 
 .bg-purple {
     background-color: #f7f6fc;
+}
+.bg-inicio {
+    background-image: url('../img/bg-inicio.png');
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100vw;
 }
 
 
@@ -62,119 +69,30 @@
 }
 
 
+.codeandomexico {
+  height: 70px;
+}
 
-.img-colab {
-    height: 140px;
+
+.box-img-colab {
+    height: 100px;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
-
-.tree {
-    background: #00efac;
-    border-radius: 25px 0 0 25px;
-    height: 50px;
-    width: 25px;
-    position: relative;
-    top: -15px;
-    margin-right: 70px;
+.img-colab {
+    max-width: 100%;
 }
-    .tree::before {
-        background: #01cfcd;
-        border-radius: 0 25px 25px 0;
-        content: " ";
-        display: block;
-        height: 50px;
-        width: 25px;
-        position: absolute;
-        right: -25px;
-    }
-    .tree::after {
-        border-style: solid;
-        border-width: 0px 4px 54px 4px;
-        border-color: transparent transparent #6439bc transparent;
-        content: " ";
-        display: inline-block;
-        position: absolute;
-        right: -4px;
-        bottom: -15px;
-    }
-.old-tree {
-    background: #00efac;
-    border-radius: 45px 0 0 40px;
-    height: 80px;
-    width: 40px;
-    position: relative;
-    top: -15px;
-    margin-left: -60px;
-    z-index: -1;
+.img-colab-instituciones {
+    width: 160px;
+    margin-bottom: 5px;
 }
-    .old-tree::before {
-        background: #01cfcd;
-        border-radius: 0 45px 40px 0;
-        content: " ";
-        display: block;
-        height: 80px;
-        width: 40px;
-        position: absolute;
-        right: -40px;
-    }
-    .old-tree::after {
-        border-style: solid;
-        border-width: 0px 4px 74px 4px;
-        border-color: transparent transparent #6439bc transparent;
-        content: " ";
-        display: inline-block;
-        position: absolute;
-        right: -4px;
-        bottom: -15px;
-    }
-
-
-.house {
-    background: #f3f0fb;
-    height: 70px;
-    width: 70px;
-    position: relative;
+.img-colab-empresas {
+    width: 160px;
 }
-    .house::after {
-        background: #ded4f7;
-        content: " ";
-        display: block;
-        height: 30px;
-        width: 20px;
-        position: absolute;
-        bottom: 0;
-        left: 25px;
-    }
-
-
-.build {
-    background: #f8f7ff;
-    height: 140px;
-    width: 70px;
-    margin-right: 70px;
-    position: relative;
-}
-.build::before {
-    background: #f3f0fb;
-    content: " ";
-    display: block;
-    height: 70px;
-    width: 70px;
-    position: absolute;
-    right: -70px;
-    bottom: 0;
-}
-.build::after {
-    background: repeating-linear-gradient(to right, #ded4f7, #ded4f7 20px, transparent 20px, transparent 70px);
-    content: " ";
-    display: block;
-    height: 30px;
-    width: 90px;
-    position: absolute;
-    bottom: 0;
-    left: 25px;
+.img-colab-ongs {
+    width: 80px;
+    margin-bottom: 5px;
 }
 
 
