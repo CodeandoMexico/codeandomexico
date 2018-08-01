@@ -14,54 +14,56 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="resources/css/codeando.css" rel="stylesheet" />
 </head>
-<body>
-    <div id="inicio"></div>
-    <nav class="navbar navbar-expand-md navbar-light bg-white bt-green" role="navigation">
-        <a class="navbar-brand" href="#inicio">
-          <img src="resources/img/codeandomexico.png" alt="CodeandoMexico" class="codeandomexico">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarToggle">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#proyectos">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#comunidad">Comunidad</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#colabora">Colaboracion</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-5 d-none d-md-flex">
-                <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-medium"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank"><i class="fas fa-envelope"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-github"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" target="_blank"><i class="fab fa-slack"></i></a>
-                </li>
-            </ul>
+<body data-spy="scroll" data-target="#scrollspy" data-offset="0">
+    <nav id="scrollspy" class="navbar fixed-top navbar-expand-md navbar-light bg-white bt-green" role="navigation">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand scroll" href="#inicio">
+              <img src="resources/img/codeandomexico.png" alt="CodeandoMexico" class="codeandomexico">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarToggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#comunidad">Comunidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#colabora">Colaboracion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-5 d-none d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/codeandomexico" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/CodeandoMexico/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://medium.com/codeandomexico" target="_blank"><i class="fab fa-medium"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:equipo@codeandomexico.org?Subject=Hello%20from%20webpage" target="_top"><i class="fas fa-envelope"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/CodeandoMexico" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://slack.codeandomexico.org/" target="_blank"><i class="fab fa-slack"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- inicio -->
+    <div id="inicio" class="navbar-padding"></div>
     <section class="container-fluid p-5 bg-inicio">
         <div class="row align-items-center justify-content-center">
             <div class="col-xs-8 col-md-7 text-center my-5">
@@ -71,9 +73,9 @@
     </section>
 
     <!-- proyectos -->
-    <section id="proyectos">
+    <section id="proyectos" class="nav-padding">
         <div class="container-fluid p-5">
-            <h6 class="font-green mt-5 mb-0">CON&Oacute;CE</h6>
+            <h6 class="font-green pt-5 mb-0">CON&Oacute;CE</h6>
             <h2 class="font-dark-purple mt-0">PROYECTOS</h2>
         </div>
     </section>
@@ -81,7 +83,7 @@
     <!-- comunidad -->
     <section id="comunidad">
         <div class="container-fluid p-5">
-            <h6 class="font-green mt-5 mb-0">&Uacute;NETE</h6>
+            <h6 class="font-green pt-5 mb-0">&Uacute;NETE</h6>
             <h2 class="font-dark-purple mt-0">COMUNIDAD</h2>
         </div>
     </section>
@@ -89,7 +91,7 @@
     <!-- colabora -->
     <section id="colabora">
         <div class="container-fluid p-5">
-            <h6 class="font-green mt-5 mb-0">COLABORACION</h6>
+            <h6 class="font-green pt-5 mb-0">COLABORACION</h6>
             <h2 class="font-dark-purple mt-0">COLABORA CON NOSOTROS</h2>
             <div class="row">
                 <div class="col-sm mt-5">
@@ -141,7 +143,7 @@
             <div class="text-center bg-purple p-5 mt-5">
                 <h4 class="font-purple">Colabora con Codeando M&eacute;xico</h4>
                 <p>¿Perteneces a una instiruci&oacute;n p&uacute;blica o empresa y deseas colaborar con nosotros?</p>
-                <button class="btn btn-purple py-3 px-5" type="button">Contactar</button>
+                <a href="http://bit.ly/2KVU2jq" target="_blank" class="btn btn-purple py-3 px-5">Contactar</a>
             </div>
         </div>
     </section>
@@ -152,6 +154,7 @@
             <h4 class="font-purple">Newsletter</h4>
         </div>
     </section>
+
     <footer>
         <div class="container-fluid p-5">
             <div class="text-center">
@@ -169,12 +172,12 @@
                     <p>Mant&eacute;nte en Contacto</p>
                 </div>
                 <div class="">
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-medium"></i></a>
-                    <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-slack"></i></a>
+                    <a href="https://twitter.com/codeandomexico" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/CodeandoMexico/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://medium.com/codeandomexico" target="_blank"><i class="fab fa-medium"></i></a>
+                    <a href="mailto:equipo@codeandomexico.org?Subject=Hello%20from%20webpage" target="_top"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/CodeandoMexico" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="http://slack.codeandomexico.org/" target="_blank"><i class="fab fa-slack"></i></a>
                 </div>
                 <div class="">
                     <p>Derechos reservados 2018 &copy;</p>
@@ -183,8 +186,18 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.scroll').click(function(e) {
+                e.preventDefault();
+                $('body,html').animate({
+                    scrollTop: $(this.hash).offset().top + 5
+                }, 700 );
+            });
+        })
+    </script>
 </body>
 </html>

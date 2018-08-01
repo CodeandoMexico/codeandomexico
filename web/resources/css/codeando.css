@@ -16,6 +16,7 @@
  body {
      font-family: 'Noto Sans', sans-serif;
      color: #4e5162;
+     position: relative;
  }
  h1,h2,h3,h4,h5,h6 {
      font-family: 'Encode Sans Expanded', sans-serif;
@@ -69,8 +70,20 @@
 }
 
 
+.navbar {
+  padding: 0;
+  margin: 0 -5px;
+}
+.navbar-padding {
+  padding-top: 100px;
+}
+.nav-padding {
+  padding-top: 15px;
+}
+
+
 .codeandomexico {
-  height: 70px;
+  height: 50px;
 }
 
 
