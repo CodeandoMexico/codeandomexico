@@ -14,16 +14,45 @@
  } */
 
 
- body {
-     font-family: 'Noto Sans', sans-serif;
-     color: #4e5162;
-     position: relative;
- }
- h1,h2,h3,h4,h5,h6 {
-     font-family: 'Encode Sans Expanded', sans-serif;
-     font-weight: 700;
- }
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #4e5162;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-weight: 700;
+}
+a {
+    color: #7754e2;
+}
+a:hover,
+.btn-link:hover {
+   color: #6439bc;
+}
+footer {
+    color: #666;
+    font-size: 14px;
+    line-height: 14px;
+}
+footer a,
+footer .btn-link {
+    color: #333;
+    border-width: 0;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 0 5px;
+    padding: 5px;
+}
+footer .btn-link {
+    margin-top: -4px;
+}
 
+footer a i {
+    font-size: 24px;
+}
 
 .font-green {
     color: #00efac;
@@ -41,9 +70,10 @@
 }
 .bg-inicio {
     background-image: url('../img/bg-inicio.png');
-    background-position: center bottom;
+    background-position: center 80%;
     background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 80vh;
     width: 100vw;
 }
@@ -95,6 +125,42 @@
 .nav-padding {
   padding-top: 15px;
 }
+
+
+.modal-content {
+    background-color: #2b283b;
+    color: #fff;
+}
+    .close {
+        color: #fff;
+        text-shadow: 0 1px 0 #000;
+    }
+    .close:not(:disabled):not(.disabled):focus,
+    .close:not(:disabled):not(.disabled):hover {
+        color: #fff;
+        opacity: 1;
+        outline: none;
+    }
+    .modal-header {
+        border: none;
+        padding: 2rem 3rem 0;
+    }
+    .modal-body {
+        border: none;
+        font-size: 18px;
+        line-height: 26px;
+        padding: 3rem;
+        text-align: center;
+    }
+        .modal-body a {
+            color: rgba(255,255,255,0.6);
+            display: inline-block;
+            margin: 0 5px;
+            padding: 5px;
+        }
+        .modal-body a:hover {
+            color: rgba(255,255,255,1);
+        }
 
 
 .codeandomexico {
@@ -153,7 +219,6 @@
         overflow: hidden;
         color: #7754e2;
         font-size: 14px;
-        height: 190px;
         display: flex;
         align-items: center;
         justify-content: center;
