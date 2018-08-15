@@ -54,6 +54,23 @@ footer a i {
     font-size: 24px;
 }
 
+.mc-field-group {
+    margin-top: 38px;
+    display: flex;
+}
+    .mc-field-group .inpt {
+        border-radius: 5px;
+        border: 1px solid #fff;
+        color: #2b283b;
+        flex: 1;
+        padding: 10px 20px;
+        margin-right: 10px;
+    }
+    .mc-field-group .inpt:focus {outline: none;}
+    .mc-field-group .btn {
+        padding: 10px 40px;
+    }
+
 .font-green {
     color: #00efac;
 }
