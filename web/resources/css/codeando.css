@@ -74,15 +74,28 @@ footer a i {
 .font-green {
     color: #00efac;
 }
+.font-white {
+    color: #fff;
+}
+.font-white-opacity {
+    color: #fff;
+    opacity: .5;
+}
+.font-purple-light {
+    color: #f7f6fc;
+}
 .font-purple {
     color: #7754e2;
 }
-.font-dark-purple {
+.font-purple-dark {
     color: #2b283b;
 }
 
 
-.bg-purple {
+.bg-purple-dark {
+    background-color: #2b283b;
+}
+.bg-purple-light {
     background-color: #f7f6fc;
 }
 .bg-inicio {
@@ -93,6 +106,27 @@ footer a i {
     background-attachment: fixed;
     height: 80vh;
     width: 100vw;
+}
+.bg-comunidad {
+    background-image: url('../img/bg-comunidad.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    display: block;
+}
+.bg-left {
+    left: 0;
+}
+.bg-right {
+    right: 0;
+}
+.container-comunidad {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
 }
 
 
