@@ -57,6 +57,7 @@ footer a i {
 .mc-field-group {
     margin-top: 38px;
     display: flex;
+    flex-direction: column;
 }
     .mc-field-group .inpt {
         border-radius: 5px;
@@ -64,11 +65,19 @@ footer a i {
         color: #2b283b;
         flex: 1;
         padding: 10px 20px;
-        margin-right: 10px;
+        margin: 0 0 10px 0;
     }
     .mc-field-group .inpt:focus {outline: none;}
     .mc-field-group .btn {
         padding: 10px 40px;
+    }
+    @media (min-width: 576px) {
+        .mc-field-group {
+            flex-direction: row;
+        }
+        .mc-field-group .inpt {
+            margin: 0 10px 0 0;
+        }
     }
 
 .font-green {
@@ -108,7 +117,6 @@ footer a i {
     width: 100vw;
 }
 .bg-comunidad {
-    /* background-image: url('../img/bg-comunidad.jpg'); */
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
