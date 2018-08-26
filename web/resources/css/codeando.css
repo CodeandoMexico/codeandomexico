@@ -230,6 +230,9 @@ footer a i {
 .codeandomexico {
   height: 50px;
 }
+.home {
+    min-height: 55vh;
+}
 
 
 .box-img-colab {
