@@ -288,3 +288,10 @@ footer a i {
         font-size: 14px;
         padding: 25px;
     }
+    .project-detail h6 {
+        height: 40px;
+    }
+    .project-detail p {
+        height: 140px;
+        overflow: hidden;
+    }
