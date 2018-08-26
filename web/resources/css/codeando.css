@@ -108,14 +108,25 @@ footer a i {
     background-color: #f7f6fc;
 }
 .bg-inicio {
-    background-image: url('../img/bg-inicio.png');
-    background-position: center 80%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 80vh;
     width: 100vw;
 }
+.inicio {
+    min-height: 60vh;
+}
+    @media (min-width: 576px) {
+        .bg-inicio {
+            background-image: url('../img/bg-inicio.png');
+            background-size: 300%;
+            background-position: center 75%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: contain;
+            height: 75vh;
+        }
+        .inicio {
+            min-height: 50vh;
+        }
+    }
 .bg-comunidad {
     background-position: center bottom;
     background-size: cover;
@@ -229,9 +240,6 @@ footer a i {
 
 .codeandomexico {
   height: 50px;
-}
-.home {
-    min-height: 55vh;
 }
 
 
