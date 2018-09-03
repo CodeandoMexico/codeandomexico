@@ -112,20 +112,19 @@ footer a i {
     width: 100%;
 }
 .inicio {
-    min-height: 60vh;
+    min-height: 70vh;
 }
     @media (min-width: 576px) {
         .bg-inicio {
             background-image: url('../img/bg-inicio.png');
-            background-size: 300%;
-            background-position: center 75%;
+            background-position: center 93%;
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: contain;
-            height: 75vh;
+            height: 93vh;
         }
         .inicio {
-            min-height: 50vh;
+            min-height: 60vh;
         }
     }
 .bg-comunidad {
