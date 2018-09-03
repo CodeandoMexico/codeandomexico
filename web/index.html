@@ -13,6 +13,15 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link href="resources/css/codeando.css" rel="stylesheet" />
+        <!— Global site tag (gtag.js) - Google Analytics —>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125038779-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-125038779-1');
+        </script>
     </head>
     <body data-spy="scroll" data-target="#scrollspy" data-offset="0">
         <nav id="scrollspy" class="navbar fixed-top navbar-expand-md navbar-light bg-white bt-green" role="navigation">
