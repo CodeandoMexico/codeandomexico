@@ -17,6 +17,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     color: #4e5162;
+    overflow-x: hidden;
     position: relative;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -108,7 +109,7 @@ footer a i {
     background-color: #f7f6fc;
 }
 .bg-inicio {
-    width: 100vw;
+    width: 100%;
 }
 .inicio {
     min-height: 60vh;
