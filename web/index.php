@@ -71,6 +71,7 @@
             </div>
         </nav>
 
+
     <!-- inicio -->
     <div id="inicio" class="navbar-padding"></div>
     <section class="bg-inicio">
@@ -78,6 +79,7 @@
             <div class="row inicio align-items-center justify-content-center">
                 <div class="col-xs-8 col-md-7 text-center">
                     <h1>Generamos nuevas formas de participaci&oacute;n ciudadana a trav&eacute;s de la tecnolog&iacute;a.</h1>
+
                 </div>
             </div>
         </section>
