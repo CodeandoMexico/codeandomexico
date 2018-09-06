@@ -13,6 +13,15 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link href="resources/css/codeando.css" rel="stylesheet" />
+        <!— Global site tag (gtag.js) - Google Analytics —>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125038779-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-125038779-1');
+        </script>
     </head>
     <body data-spy="scroll" data-target="#scrollspy" data-offset="0">
         <nav id="scrollspy" class="navbar fixed-top navbar-expand-md navbar-light bg-white bt-green" role="navigation">
@@ -62,14 +71,15 @@
             </div>
         </nav>
 
-        <!-- inicio -->
-        <div id="inicio" class="navbar-padding"></div>
-        <section class="bg-inicio">
-            <div class="container px-5">
-                <div class="row inicio align-items-center justify-content-center">
-                    <div class="col-xs-8 col-md-7 text-center">
-                        <h1>Generamos nuevas formas de participaci&oacute;n ciudadana a trav&eacute;s de la tecnolog&iacute;a.</h1>
-                    </div>
+
+    <!-- inicio -->
+    <div id="inicio" class="navbar-padding"></div>
+    <section class="bg-inicio">
+        <div class="container px-5">
+            <div class="row inicio align-items-center justify-content-center">
+                <div class="col-xs-8 col-md-7 text-center">
+                    <h1>Generamos nuevas formas de participaci&oacute;n ciudadana a trav&eacute;s de la tecnolog&iacute;a.</h1>
+
                 </div>
             </div>
         </section>
@@ -352,13 +362,13 @@
                             <img class="img-colab img-colab-ongs" src="resources/img/colab-ongs.png" alt="ONGs">
                         </div>
                         <h4 class="font-purple-dark">ONG's</h4>
-                        <p>Podemos colaborar o crear proyectos en conjunto que:</p>
+                        <p>Podemos desarrollar en conjunto proyectos y herramientas innovadoreas que:</p>
                         <ul class="list-colab">
-                            <li>Desarrollen capacidades t&eacute;cnicas dentro de tu organizaci&oacute;n</li>
-                            <li>Aumenten el impacto de tu trabajo </li>
-                            <li>Identifiquen problemas p&uacute;blicos y posibles soluciones tecnol&oacute;gicas</li> 
-                            <li>Abran procesos y datos para colaborar con tecn&oacute;logos</li>
-                            <li>Nos permitan encontrar respuestas a sus retos en conjunto</li>
+                            <li>Donar tiempo y recurso humano para codear (si eres una empresa de desarrollo de software)</li>
+                            <li>Uso gratuito de espacios para eventos, meetups, juntas, etc.</li>
+                            <li>Financiar un proyecto de tecnolog&iacute;a c&iacute;vica y/o a los voluntarios que colaboren.</li>
+                            <li>Donar productos (Software, hardware, mobiliario, art&iacute;culos de oficina, playeras, etc.)</li>
+                            <li>Gestionar espacios dentro de la empresa para hablar de Codeando M&eacute;xico.</li>
                             <li>¡Otras ideas que se te ocurran!</li>
                         </ul>
                     </div>
