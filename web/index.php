@@ -44,7 +44,7 @@
                             <a class="nav-link scroll" href="#comunidad">Comunidad</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scroll" href="#colabora">Colaboracion</a>
+                            <a class="nav-link scroll" href="#colabora">Colaboraci&oacute;n</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link scroll" href="#contacto">Contacto</a>
@@ -90,7 +90,7 @@
          <!-- proyectos -->
          <section id="proyectos" class="nav-padding">
                 <div class="container p-5">
-                    <h6 class="font-green pt-5 mb-0">CON&Oacute;CE</h6>
+                    <h6 class="font-green pt-5 mb-0">CONOCE</h6>
                     <h2 class="font-purple-dark mt-0">PROYECTOS</h2>
                     <div class="row">
                         <div class="col-sm-6 col-md-4 mt-4">
@@ -194,7 +194,7 @@
                                 <div class="project-detail text-center">
                                     <h6>HERMOSILLO ABIERTO</h6>
                                     <p>
-                                        Innovaci&oacute;n abierta para encontrar soluciones a los problemas p&uatuce;blicos de Hermosillo, Sonora.
+                                        Innovaci&oacute;n abierta para encontrar soluciones a los problemas p&uacute;blicos de Hermosillo, Sonora.
                                     </p>
                                     <a href="https://www.hermosilloabierto.org/" target="_blank" class="btn btn-purple-light px-4">Visitar</a>
                                 </div>
@@ -258,12 +258,12 @@
                                     activistas, periodistas, funcionarios públicos, diseñadores.
                                 </p>
                                 <p class="font-white-opacity">
-                                    Culaquiera que comparta nuestros principios, valores y código de conducta
+                                    Cualquiera que comparta nuestros principios, valores y código de conducta
                                     puede ser parte de ésta comunidad.
                                 </p>
                                 <h6 class="font-white mb-4 mt-5">Únete a la comunidad</h6>
                                 <p class="font-white-opacity">
-                                    ¿Quieres ser parte de la comunidad? Cuéntanos sobre tí y tus habilidades, sumate al slack.
+                                    ¿Quieres ser parte de la comunidad? Cuéntanos sobre ti y tus habilidades, s&uacute;mate al slack.
                                 </p>
                                 <a href="http://slack.codeandomexico.org/" target="_blank" class="btn btn-purple py-3 px-5 mt-5">Unirme a Slack</a>
                             </div>
@@ -279,8 +279,7 @@
                             <div class="p-5 text-center">
                                 <h4 class="font-purple mb-4">¿Qué es una brigada?</h4>
                                 <p>
-                                    Las brigadas se conforman por personas de la comunidad que viven en una misma
-                                    ciudad y se reúnen físicamente para aprender, colaborar y trabajar con problemáticas locales.
+                                    Las brigadas se conforman por personas de la comunidad que viven en una misma ciudad y se reúnen físicamente para aprender, colaborar y trabajar con problemáticas locales.
                                 </p>
                                 <h6 class="font-purple mb-4 mt-5">Brigadas existentes</h6>
                                 <div class="row">
@@ -330,7 +329,7 @@
         <!-- colabora -->
         <section id="colabora">
             <div class="container p-5">
-                <h6 class="font-green pt-5 mb-0">COLABORACION</h6>
+                <h6 class="font-green pt-5 mb-0">COLABORACI&Oacute;N</h6>
                 <h2 class="font-purple-dark mt-0">COLABORA CON NOSOTROS</h2>
                 <div class="row">
                     <div class="col-md mt-5">
@@ -352,7 +351,7 @@
                             <img class="img-colab img-colab-empresas" src="resources/img/colab-empresas.png" alt="Empresas">
                         </div>
                         <h4 class="font-purple-dark">Empresas</h4>
-                        <p>Si eres una empresa y deseas involucrarte con nosotros, estas son algunas ideas de c&oacute;mo contribuir.</p>
+                        <p>Si eres una empresa y deseas involucrarte con nosotros, &eacute;stas son algunas ideas de c&oacute;mo contribuir:</p>
                         <ul class="list-colab">
                             <li>Donar tiempo y recurso humano para codear (si eres una empresa de desarrollo de software)</li>
                             <li>Uso gratuito de espacios para eventos, meetups, juntas, etc.</li>
@@ -381,7 +380,7 @@
 
                 <div class="text-center bg-purple-light p-5 mt-5">
                     <h4 class="font-purple">Colabora con Codeando M&eacute;xico</h4>
-                    <p>¿Perteneces a una instiruci&oacute;n p&uacute;blica o empresa y deseas colaborar con nosotros?</p>
+                    <p>¿Perteneces a una instituci&oacute;n p&uacute;blica o empresa y deseas colaborar con nosotros?</p>
                     <a href="http://bit.ly/2KVU2jq" target="_blank" class="btn btn-purple py-3 px-5">Contactar</a>
                 </div>
             </div>
@@ -394,8 +393,8 @@
                     <div class="col-md-4">
                         <h4 class="font-purple">Newsletter</h4>
                         <p>
-                            ¿Te interesa conocer mas de nosotros?<br>
-                            Subscribete a nuestro boletin mensual.<br>
+                             ¿Te interesa conocer m&aacute;s de nosotros?<br>
+                            Suscr&iacute;bete a nuestro bolet&iacute;n mensual.<br>
                         </p>
                     </div>
                     <div class="col-md-8">
@@ -456,3 +455,4 @@
         <script type='text/javascript'>$(document).ready(function() {$('.scroll').click(function(e) {e.preventDefault();$('body,html').animate({scrollTop: $(this.hash).offset().top + 5}, 700 );});});</script>
     </body>
 </html>
+
