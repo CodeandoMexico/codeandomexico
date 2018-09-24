@@ -50,7 +50,7 @@
 			<ul class="menu-list">
 				<li class="active"><a href="home.html">Inicio</a></li>
 				<li><a href="#aulascmx">¿Que hacemos?</a></li>
-				<li><a href="©https://medium.com/tag/aulascmx/latest">Blog</a></li>
+				<li><a href="https://medium.com/tag/aulascmx/latest">Blog</a></li>
 				<li><a href="#contacto">Contacto</a></li>
 				<!--<li><a href=""></a></li> -->
 			</ul>
