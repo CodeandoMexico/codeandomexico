@@ -42,7 +42,7 @@
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="logo">
-			<img src="img/logo.png" alt=""><!-- Logo -->
+			<img src="../img/logo.png" alt=""><!-- Logo -->
 		</div>
 		<!-- Navigation -->
 		<div class="responsive"><i class="fa fa-bars"></i></div>
@@ -69,7 +69,7 @@
 		</div>
 		<!-- slider -->
 		<div id="hero-slider" class="owl-carousel">
-			<div class="item  hero-item" data-bg="img/cover.png"></div>
+			<div class="item  hero-item" data-bg="../img/cover.png"></div>
 			<!--<div class="item  hero-item" data-bg="img/02.jpg"></div> -->
 		</div>
 	</div>
