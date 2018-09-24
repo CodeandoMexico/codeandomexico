@@ -474,13 +474,13 @@
 									<div class="row">
 										<div>
 											<div class="col-md-2">
-												<i href="https://www.facebook.com/CodeandoMexico/" class="fab fa-facebook-f" target="_blank"></i>
+												<a href="https://www.facebook.com/CodeandoMexico/" target="_blank"><i href="" class="fab fa-facebook-f"></i></a>
 											</div>
 											<div class="col-md-2">
-												<i href="https://twitter.com/CodeandoMexico" class="fab fa-twitter" target="_blank"></i>
+												<a href="https://twitter.com/CodeandoMexico" target="_blank"><i class="fab fa-twitter"></i></a>
 											</div>
 											<div class="col-md-2">
-												<i href="https://github.com/CodeandoMexico" class="fab fa-github" target="_blank" ></i>
+												<a href="https://github.com/CodeandoMexico" target="_blank"><i class="fab fa-github"></i></a>
 											</div>
 
 										</div>
