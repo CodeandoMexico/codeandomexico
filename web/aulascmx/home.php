@@ -13,11 +13,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700|Roboto:300,400,700" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="../css/flaticon.css"/>
-	<link rel="stylesheet" href="../css/magnific-popup.css"/>
-	<link rel="stylesheet" href="../css/owl.carousel.css"/>
-	<link rel="stylesheet" href="../css/style.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -42,14 +42,14 @@
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="logo">
-			<img src="../img/logo.png" alt=""><!-- Logo -->
+			<img src="img/logo.png" alt=""><!-- Logo -->
 		</div>
 		<!-- Navigation -->
 		<div class="responsive"><i class="fa fa-bars"></i></div>
 		<nav>
 			<ul class="menu-list">
 				<li class="active"><a href="home.html">Inicio</a></li>
-				<li><a href="#temario">¿Que hacemos?</a></li>
+				<li><a href="#aulascmx">¿Que hacemos?</a></li>
 				<li><a href="https://medium.com/tag/aulas-cmx">Blog</a></li>
 				<li><a href="#contacto">Contacto</a></li>
 				<!--<li><a href=""></a></li> -->
@@ -69,7 +69,7 @@
 		</div>
 		<!-- slider -->
 		<div id="hero-slider" class="owl-carousel">
-			<div class="item  hero-item" data-bg="../img/cover.png"></div>
+			<div class="item  hero-item" data-bg="img/cover.png"></div>
 			<!--<div class="item  hero-item" data-bg="img/02.jpg"></div> -->
 		</div>
 	</div>
@@ -89,8 +89,8 @@
 							<div class="icon">
 								<i class="flaticon-023-flask"></i>
 							</div>
-							<h2>Aprendizaje</h2>
-							<p>Aprendan sobre  pensamiento computacional, programación y colaboración</p>
+							<h2>Lógica computacional</h2>
+							<p></p>
 						</div>
 					</div>
 					<!-- single card -->
@@ -99,8 +99,8 @@
 							<div class="icon">
 								<i class="flaticon-011-compass"></i>
 							</div>
-							<h2>Mejores oportunidades</h2>
-							<p>Tengan acceso a mejores oportunidades laborales</p>
+							<h2>Habilidades de programación</h2>
+							<p>Validadas por Microsoft Youthspark</p>
 						</div>
 					</div>
 					<!-- single card -->
@@ -109,8 +109,8 @@
 							<div class="icon">
 								<i class="flaticon-037-idea"></i>
 							</div>
-							<h2>Tecnología Cívica</h2>
-							<p>Usen la tecnología como herramienta de cambio</p>
+							<h2>Soft Skills</h2>
+							<p></p>
 						</div>
 					</div>
 				</div>
@@ -120,19 +120,23 @@
 
 
 		<!-- About contant -->
-		<div class="about-contant">
+		<div id="aulascmx" class="about-contant">
 			<div class="container">
 				<div class="section-title">
 					<h2>¿QUÉ ES <span>AULAS CMX</span>? </h2>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<p>Un programa de desarrollo de pensamiento computacional, habilidades de programación y metodologías de innovación cívica orientado a jóvenes en situación de vulnerabilidad.</p>
+						<p>Un programa de desarrollo de pensamiento computacional, habilidades de 
+						   programación y metodologías de innovación cívica orientado a jóvenes en 
+						   situación de vulnerabilidad. El programa educativo propuesto está basado 
+						   en diversos planes educativos de enseñanza de programación web, implementados 
+						   en diferentes bootcamps, pero contextualizado para México.</p>
 					</div>
 					<div class="col-md-6">
-						<p>Generar oportunidades de aprendizaje tecnológico  orientadas a jóvenes en situación de vulnerabilidad para:</p>
-						<p>Darles acceso a mejores oportunidades laborales en el mercado de la tecnología digital, mejorando así su calidad de vida y la de sus familias. </p>
-						<p>Convertirlos agentes de cambio que usan la tecnología como una herramienta para abordar problemas públicos.</p>
+						<p>Buscamos generar oportunidades de aprendizaje tecnológico para:</p>
+						<p>Brindar acceso a mejores oportunidades laborales en el mercado de la tecnología digital, mejorando así su calidad de vida, la de sus familias y de su entorno.</p>
+						<p>Convertirlos en agentes de cambio que usan la tecnología como una herramienta para abordar problemas públicos.</p>
 						
 					</div>
 				</div>
@@ -158,7 +162,7 @@
 	<!-- About section end -->
 
 
-	<!-- Testimonial section -->
+	<!-- Testimonial section --
 	<div class="testimonial-section pb100">
 		<div class="test-overlay"></div>
 		<div class="container">
@@ -168,13 +172,13 @@
 						<h2>Nuestros alumnos</h2>
 					</div>
 					<div class="owl-carousel" id="testimonial-slide">
-						<!-- single testimonial -->
+						<-- single testimonial --
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Mi nombre es Jessica Arias, tengo 34 años y comencé a estudiar la carrera de Diseño Gráfico. Participar en el programa de Aulas en Zapopan fue una experiencia muy enriquecedora</p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="../img/avatar/01.jpg" alt="">
+									<img src="img/avatar/01.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Jessica Arias</h2>
@@ -182,13 +186,13 @@
 								</div>
 							</div>
 						</div>
-						<!-- single testimonial -->
+						<-- single testimonial --
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Tengo un negocio en el área automotriz, pero quería expandirme y vender otras cosas. Mi objetivo era aprender a hacer mis paginas web para vender dentro de la ciudad y crecer mi negocio. </p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="../img/avatar/02.jpg" alt="">
+									<img src="img/avatar/02.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Lizbeth Castillo</h2>
@@ -196,13 +200,13 @@
 								</div>
 							</div>
 						</div>
-						<!-- single testimonial -->
+						<-- single testimonial --
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Dediqué mi desarrollo en la industria minera, hasta que me di cuenta que debía generar proyectos con un impacto social. Actualmente gestiono dos empresas sociales que ayudan a </p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="../img/avatar/01.jpg" alt="">
+									<img src="img/avatar/01.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Jair Chan</h2>
@@ -210,13 +214,13 @@
 								</div>
 							</div>
 						</div>
-						<!-- single testimonial -->
+						<-- single testimonial --
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Soy Jonathan y me gradué como Licenciado en Sistemas Computacionales, sin embargo, considero que no obtuve suficientes conocimientos sobre desarrollo web en la universidad. </p>
 							<div class="client-info">
 								<div class="avatar">
-									<img src="../img/avatar/02.jpg" alt="">
+									<img src="img/avatar/04.jpg" alt="">
 								</div>
 								<div class="client-name">
 									<h2>Jonathan Saavedra</h2>
@@ -224,7 +228,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- single testimonial 
+						<-- single testimonial 
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
@@ -238,7 +242,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- single testimonial 
+						<-- single testimonial 
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
@@ -251,20 +255,20 @@
 									<p>CEO Company</p>
 								</div>
 							</div>
-						</div>  -->
+						</div>  --
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Testimonial section end-->
+	<-- Testimonial section end 
 
 
 	<!-- Services section -->
 	<div id="temario" class="services-section spad">
 		<div class="container">
 			<div class="section-title dark">
-				<h2><span>Temario</span></h2>
+				<h2><span>Habilidades</span></h2>
 			</div>
 			<div class="row">
 				<!-- single service -->
@@ -274,8 +278,8 @@
 							<i class="flaticon-023-flask"></i>
 						</div>
 						<div class="service-text">
-							<h2>Get in the lab</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<h2>Metodologías y técnicas para el desarrollo de software</h2>
+							<p></p>
 						</div>
 					</div>
 				</div>
@@ -286,8 +290,8 @@
 							<i class="flaticon-011-compass"></i>
 						</div>
 						<div class="service-text">
-							<h2>Projects online</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<h2>Ciencias computacionales</h2>
+							<p>Aplicación de algoritmos, estructuras de datos y lenguajes de programación en el desarrollo de software.</p>
 						</div>
 					</div>
 				</div>
@@ -298,8 +302,8 @@
 							<i class="flaticon-037-idea"></i>
 						</div>
 						<div class="service-text">
-							<h2>SMART MARKETING</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<h2>Optimización del tiempo</h2>
+							<p>Administración y manejo de tiempo y recursos en el desarrollo de software</p>
 						</div>
 					</div>
 				</div>
@@ -310,8 +314,8 @@
 							<i class="flaticon-039-vector"></i>
 						</div>
 						<div class="service-text">
-							<h2>Social Media</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<h2>Comprensión del entorno</h2>
+							<p>Analizar los factores sociales, políticos, ecológicos y éticos relacionados con el desarrollo tecnológico.</p>
 						</div>
 					</div>
 				</div>
@@ -322,8 +326,8 @@
 							<i class="flaticon-036-brainstorming"></i>
 						</div>
 						<div class="service-text">
-							<h2>Brainstorming</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<h2>Resolución de problemas</h2>
+							<p>Metodologías colaborativas que ayuden a desencadenar ideas innovadoras para los problemas actuales.</p>
 						</div>
 					</div>
 				</div>
@@ -334,12 +338,12 @@
 							<i class="flaticon-026-search"></i>
 						</div>
 						<div class="service-text">
-							<h2>Documented</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
+							<h2>Innovación social</h2>
+							<p>Capacidad cognitiva sobre desarrollo de soluciones tecnológicas con impacto social.</p>
 						</div>
 					</div>
 				</div>
-				<!-- single service -->
+				<!-- single service 
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
 						<div class="icon">
@@ -350,8 +354,8 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
 						</div>
 					</div>
-				</div>
-				<!-- single service -->
+				</div> 
+				<!-- single service 
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
 						<div class="icon">
@@ -363,7 +367,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- single service -->
+				<!-- single service 
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
 						<div class="icon">
@@ -374,11 +378,11 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla..</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
-			<div class="text-center">
+			<!-- <div class="text-center">
 				<a href="" class="site-btn">Ver más</a>
-			</div>
+			</div>  -->
 		</div>
 	</div>
 	<!-- services section end -->
@@ -428,22 +432,22 @@
 			<div class="row align-items-center">
 				<div class="col-md-3 align-self-center">
 					
-					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
+					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
 					
 				</div>
 				<div class="col-md-3 align-self-center">
 					
-					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
+					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
 				
 				</div>
 				<div class="col-md-3 align-self-center">
 					
-					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
+					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
 					
 				</div>
 				<div class="col-md-3 align-self-center">
 					
-					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
+					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
 				
 				</div>	
 			</div>
@@ -488,7 +492,7 @@
 								<h3 class="mt60">Oficinas</h3>
 								<p class="con-item">Calle Quito 1260 <br> Italia Providencia 44648 Guadalajara </p>
 								<p class="con-item">961 273 8719</p>
-								<p class="con-item">alex@codeandomexico.org</p>
+								<p class="con-item">aulas@codeandomexico.org</p>
 							</div>
 						</div>
 					</div>
@@ -528,11 +532,11 @@
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="../js/jquery-2.1.4.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<script src="../js/magnific-popup.min.js"></script>
-	<script src="../js/owl.carousel.min.js"></script>
-	<script src="../js/circle-progress.min.js"></script>
-	<script src="../js/main.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
