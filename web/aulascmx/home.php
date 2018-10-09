@@ -127,17 +127,17 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<p>Un programa de desarrollo de pensamiento computacional, habilidades de 
-						   programación y metodologías de innovación cívica orientado a jóvenes en 
-						   situación de vulnerabilidad. El programa educativo propuesto está basado 
-						   en diversos planes educativos de enseñanza de programación web, implementados 
+						<p>Un programa de desarrollo de pensamiento computacional, habilidades de
+						   programación y metodologías de innovación cívica orientado a jóvenes en
+						   situación de vulnerabilidad. El programa educativo propuesto está basado
+						   en diversos planes educativos de enseñanza de programación web, implementados
 						   en diferentes bootcamps, pero contextualizado para México.</p>
 					</div>
 					<div class="col-md-6">
 						<p>Buscamos generar oportunidades de aprendizaje tecnológico para:</p>
 						<p>Brindar acceso a mejores oportunidades laborales en el mercado de la tecnología digital, mejorando así su calidad de vida, la de sus familias y de su entorno.</p>
 						<p>Convertirlos en agentes de cambio que usan la tecnología como una herramienta para abordar problemas públicos.</p>
-						
+
 					</div>
 				</div>
 				<p></p>
@@ -145,7 +145,7 @@
 				<div class="text-center mt60">
 					<a href="" class="site-btn">Galería</a>
 				</div>
-				<!-- popup video 
+				<!-- popup video
 				<div class="intro-video">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
@@ -228,7 +228,7 @@
 								</div>
 							</div>
 						</div>
-						<-- single testimonial 
+						<-- single testimonial
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
@@ -242,7 +242,7 @@
 								</div>
 							</div>
 						</div>
-						<-- single testimonial 
+						<-- single testimonial
 						<div class="testimonial">
 							<span>‘​‌‘​‌</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequa.</p>
@@ -261,7 +261,7 @@
 			</div>
 		</div>
 	</div>
-	<-- Testimonial section end 
+	<-- Testimonial section end
 
 
 	<!-- Services section -->
@@ -295,6 +295,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="clearfix visible-sm-block"></div>
 				<!-- single service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
@@ -307,6 +308,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="clearfix visible-md-block"></div>
 				<!-- single service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
@@ -319,6 +321,7 @@
 						</div>
 					</div>
 				</div>
+				<div class="clearfix visible-sm-block"></div>
 				<!-- single service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
@@ -349,7 +352,7 @@
 	<!-- services section end -->
 
 
-	<!-- Team Section 
+	<!-- Team Section
 	<div class="team-section spad">
 		<div class="overlay"></div>
 		<div class="container">
@@ -357,7 +360,7 @@
 				<h2>Get in <span>the Lab</span> and  meet the team</h2>
 			</div>
 			<div class="row">
-				<!-- single member 
+				<!-- single member
 				<div class="col-sm-4">
 					<div class="member">
 						<img src="img/team/1.jpg" alt="">
@@ -365,7 +368,7 @@
 						<h3>Project Manager</h3>
 					</div>
 				</div>
-				<!-- single member 
+				<!-- single member
 				<div class="col-sm-4">
 					<div class="member">
 						<img src="img/team/2.jpg" alt="">
@@ -373,7 +376,7 @@
 						<h3>Junior developer</h3>
 					</div>
 				</div>
-				<!-- single member 
+				<!-- single member
 				<div class="col-sm-4">
 					<div class="member">
 						<img src="img/team/3.jpg" alt="">
@@ -384,7 +387,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Team Section end 
+	<!-- Team Section end
 
 
 	<!-- Promotion section -->
@@ -392,25 +395,25 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-3 align-self-center">
-					
+
 					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
-					
+
 				</div>
 				<div class="col-md-3 align-self-center">
-					
+
 					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
-				
+
 				</div>
 				<div class="col-md-3 align-self-center">
-					
+
 					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
-					
+
 				</div>
 				<div class="col-md-3 align-self-center">
-					
+
 					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
-				
-				</div>	
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -425,10 +428,10 @@
 				<div class="col-md-11 col-md-offset-1 contact-info ">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-6">	
+							<div class="col-md-6">
 								<div class="section-title left">
 									<h2><span>Contactanos</span></h2>
-									
+
 								</div>
 								<p>¿Te interesa conocer más del programa? </p>
 								<div class="container-fluid social-icons">
@@ -459,7 +462,7 @@
 					</div>
 
 				</div>
-				<!-- contact form 
+				<!-- contact form
 				<div class="col-md-6 col-pull">
 					<form class="form-class" id="con_form">
 						<div class="row">
