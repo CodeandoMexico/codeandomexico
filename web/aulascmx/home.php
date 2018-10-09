@@ -308,7 +308,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="clearfix visible-md-block"></div>
+				<div class="clearfix visible-md-block visible-lg-block"></div>
 				<!-- single service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
