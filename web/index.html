@@ -211,7 +211,7 @@
                                         El esfuerzo de la comunidad por apoyar la labor de respuesta frente al terremoto
                                         del 19 de septiembre de 2017 en M&eacute;xico.
                                     </p>
-                                    <a href="http://sismomexico.org/" target="_blank" class="btn btn-purple-light px-4">Visitar</a>
+                                    <a href="https://sismomexico.com.mx" target="_blank" class="btn btn-purple-light px-4">Visitar</a>
                                 </div>
                             </div>
                         </div>
