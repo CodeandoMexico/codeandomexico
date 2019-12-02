@@ -76,48 +76,6 @@
 	<!-- Intro Section -->
 
 
-	<!-- About section -->
-	<div class="about-section">
-		<div class="overlay"></div>
-		<!-- card section -->
-		<div class="card-section">
-			<div class="container">
-				<div class="row">
-					<!-- single card -->
-					<div class="col-md-4 col-sm-6">
-						<div class="lab-card">
-							<div class="icon">
-								<i class="flaticon-023-flask"></i>
-							</div>
-							<h2>Lógica computacional</h2>
-							<p></p>
-						</div>
-					</div>
-					<!-- single card -->
-					<div class="col-md-4 col-sm-6">
-						<div class="lab-card">
-							<div class="icon">
-								<i class="flaticon-011-compass"></i>
-							</div>
-							<h2>Habilidades de programación</h2>
-							<p>Validadas por Microsoft Youthspark</p>
-						</div>
-					</div>
-					<!-- single card -->
-					<div class="col-md-4 col-sm-12">
-						<div class="lab-card">
-							<div class="icon">
-								<i class="flaticon-037-idea"></i>
-							</div>
-							<h2>Soft Skills</h2>
-							<p></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- card section end-->
-
 
 		<!-- About contant -->
 		<div id="aulascmx" class="about-contant">
@@ -160,6 +118,48 @@
 		</div>
 	</div>
 	<!-- About section end -->
+
+	<!-- About section -->
+	<div class="about-section">
+		<div class="overlay"></div>
+		<!-- card section -->
+		<div class="card-section">
+			<div class="container">
+				<div class="row">
+					<!-- single card -->
+					<div class="col-md-4 col-sm-6">
+						<div class="lab-card">
+							<div class="icon">
+								<i class="flaticon-023-flask"></i>
+							</div>
+							<h2>Lógica computacional</h2>
+							<p></p>
+						</div>
+					</div>
+					<!-- single card -->
+					<div class="col-md-4 col-sm-6">
+						<div class="lab-card">
+							<div class="icon">
+								<i class="flaticon-011-compass"></i>
+							</div>
+							<h2>Habilidades de programación</h2>
+							<p>Validadas por Microsoft Youthspark</p>
+						</div>
+					</div>
+					<!-- single card -->
+					<div class="col-md-4 col-sm-12">
+						<div class="lab-card">
+							<div class="icon">
+								<i class="flaticon-037-idea"></i>
+							</div>
+							<h2>Soft Skills</h2>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- card section end-->
 
 
 	<!-- Testimonial section --
@@ -488,7 +488,7 @@
 
 	<!-- Footer section -->
 	<footer class="footer-section">
-		<h2>2018 <a href="https://codeandomexico.org" target="_blank">Codeando México</a></h2>
+		<h2>2020 <a href="https://codeandomexico.org" target="_blank">Codeando México</a></h2>
 	</footer>
 	<!-- Footer section end -->
 
