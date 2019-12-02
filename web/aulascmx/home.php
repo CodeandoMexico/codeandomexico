@@ -78,7 +78,7 @@
 
 	<!-- About section -->
 	<div class="about-section">
-		<div class="overlay"></div>
+		
 		
 
 
@@ -122,6 +122,7 @@
 			</div>
 		</div>
 		<!-- card section -->
+		<div class="overlay"></div>
 		<div class="card-section">
 			<div class="container">
 				<div class="row">
