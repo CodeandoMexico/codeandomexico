@@ -79,7 +79,6 @@
 	<!-- About section -->
 	<div class="about-section">
 		
-		
 
 
 		<!-- About contant -->
@@ -90,16 +89,13 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<p>Un programa de desarrollo de pensamiento computacional, habilidades de
-						   programación y metodologías de innovación cívica orientado a jóvenes en
-						   situación de vulnerabilidad. El programa educativo propuesto está basado
-						   en diversos planes educativos de enseñanza de programación web, implementados
-						   en diferentes bootcamps, pero contextualizado para México.</p>
+						<p>Generamos oportunidades de aprendizaje tecnológico para jóvenes en 
+							situación de vulnerabilidad que les permitan:</p>
 					</div>
 					<div class="col-md-6">
-						<p>Buscamos generar oportunidades de aprendizaje tecnológico para:</p>
-						<p>Brindar acceso a mejores oportunidades laborales en el mercado de la tecnología digital, mejorando así su calidad de vida, la de sus familias y de su entorno.</p>
-						<p>Convertirlos en agentes de cambio que usan la tecnología como una herramienta para abordar problemas públicos.</p>
+						<p>Acceder a mejores oportunidades laborales, mejorando su calidad de vida, las de sus familias y sus comunidades</p>
+						<p>Utilizar la tecnología como una herramienta para catalizar cambios en sus espacios y comunidades</p>
+						
 
 					</div>
 				</div>
@@ -132,7 +128,7 @@
 							<div class="icon">
 								<i class="flaticon-023-flask"></i>
 							</div>
-							<h2>Lógica computacional</h2>
+							<h2>Workshops largos</h2>
 							<p></p>
 						</div>
 					</div>
@@ -142,8 +138,7 @@
 							<div class="icon">
 								<i class="flaticon-011-compass"></i>
 							</div>
-							<h2>Habilidades de programación</h2>
-							<p>Validadas por Microsoft Youthspark</p>
+							<h2>Talleres</h2>
 						</div>
 					</div>
 					<!-- single card -->
@@ -152,7 +147,8 @@
 							<div class="icon">
 								<i class="flaticon-037-idea"></i>
 							</div>
-							<h2>Soft Skills</h2>
+							<h2>Capacitación a formadores 
+								</h2>
 							<p></p>
 						</div>
 					</div>
