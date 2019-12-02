@@ -50,9 +50,9 @@
 			<ul class="menu-list">
 				<li class="active"><a href="home.html">Inicio</a></li>
 				<li><a href="#aulascmx">¿Que hacemos?</a></li>
-				<li><a href="https://medium.com/tag/aulascmx/latest">Blog</a></li>
-				<li><a href="#contacto">Contacto</a></li>
-				<!--<li><a href=""></a></li> -->
+				<li><a href="#contacto">Colabora</a></li>
+		<!--    <li><a href="#contacto">Contacto</a></li>
+				<li><a href=""></a></li> -->
 			</ul>
 		</nav>
 	</header>
@@ -433,7 +433,7 @@
 									<h2><span>Contactanos</span></h2>
 
 								</div>
-								<p>¿Te interesa conocer más del programa? </p>
+								<p>Si tienes ganas de colaborar en Aulas, manda por favor un correo a alex@codeandomexico.org </p>
 								<div class="container-fluid social-icons">
 									<div class="row">
 										<div>
@@ -456,7 +456,7 @@
 								<h3 class="mt60">Oficinas</h3>
 								<p class="con-item">Calle Quito 1260 <br> Italia Providencia 44648 Guadalajara </p>
 								<p class="con-item">961 273 8719</p>
-								<p class="con-item">aulas@codeandomexico.org</p>
+								<p class="con-item">alex@codeandomexico.org</p>
 							</div>
 						</div>
 					</div>
