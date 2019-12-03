@@ -394,22 +394,32 @@
 			<div class="row align-items-center">
 				<div class="col-md-3 align-self-center">
 
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/youthspark.png" alt="" srcset="../img/partners/youthspark.png">
 
 				</div>
 				<div class="col-md-3 align-self-center">
 
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/Logo_Microsoft.jpg" alt="" srcset="../img/partners/Logo_Microsoft.jpg">
 
 				</div>
 				<div class="col-md-3 align-self-center">
 
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/surco.jpg" alt="" srcset="../img/partners/surco.jpg">
 
 				</div>
 				<div class="col-md-3 align-self-center">
 
-					<img src="img/partners/youthspark.png" alt="" srcset="img/partners/youthspark.png">
+					<img src="../img/partners/wpdi.png" alt="" srcset="../img/partners/wpdi.png">
+
+				</div>
+				<div class="col-md-3 align-self-center">
+
+					<img src="../img/partners/cdt.png" alt="" srcset="../img/partners/cdt.png">
+
+				</div>
+				<div class="col-md-3 align-self-center">
+
+					<img src="../img/partners/icoe.png" alt="" srcset="../img/partners/icoe.png">
 
 				</div>
 			</div>
