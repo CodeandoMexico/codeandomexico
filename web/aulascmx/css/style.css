@@ -417,7 +417,7 @@ ul {
 /*Card Section*/
 .card-section {
 	position: relative;
-	padding-bottom: 40px;
+	padding-bottom: 60px;
 	z-index: 5;
 }
 
@@ -475,7 +475,7 @@ ul {
 .about-contant {
 	position: relative;
 	z-index: 5;
-	margin-bottom: 75px;
+	margin-bottom: 80px;
 }
 
 .about-contant p {
