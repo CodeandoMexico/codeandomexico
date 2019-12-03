@@ -726,7 +726,8 @@ ul {
 	Promotion section
 --------------------------*/
 .promotion-section {
-	background: #FF643B;
+/*	background: #FF643B; */
+	background-color: white;
 	padding: 115px 0;
 }
 
