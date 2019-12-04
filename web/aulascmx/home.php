@@ -402,22 +402,22 @@
 					<img src="../img/partners/Logo_Microsoft.jpg" alt="" srcset="../img/partners/Logo_Microsoft.jpg">
 
 				</div>
-				<div class="col-md-3 align-self-center">
+				<div class="col-md-3 align-self-center surco">
 
 					<img src="../img/partners/surco.jpg" alt="" srcset="../img/partners/surco.jpg">
 
 				</div>
-				<div class="col-md-3 align-self-center">
+				<div class="col-md-3 align-self-center wpdi">
 
 					<img src="../img/partners/wpdi.png" alt="" srcset="../img/partners/wpdi.png">
 
 				</div>
-				<div class="col-md-3 align-self-center">
+				<div class="col-md-3 align-self-center cdt">
 
 					<img src="../img/partners/cdt.png" alt="" srcset="../img/partners/cdt.png">
 
 				</div>
-				<div class="col-md-3 align-self-center">
+				<div class="col-md-3 align-self-center icoe">
 
 					<img src="../img/partners/icoe.png" alt="" srcset="../img/partners/icoe.png">
 

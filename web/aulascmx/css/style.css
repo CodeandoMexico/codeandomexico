@@ -417,7 +417,7 @@ ul {
 /*Card Section*/
 .card-section {
 	position: relative;
-	padding-bottom: 60px;
+	padding-bottom: 113px;
 	z-index: 5;
 }
 
@@ -729,6 +729,24 @@ ul {
 /*	background: #FF643B; */
 	background-color: white;
 	padding: 115px 0;
+}
+
+.surco{
+	margin-top: -45px;
+}
+
+.wpdi{
+	width: 90%;
+	margin-top: -55px;
+	margin-left: 18px;
+}
+
+.icoe{
+	width: 80%;
+}
+
+.cdt{
+	margin-top: 25px;
 }
 
 .promotion-section h2 {
