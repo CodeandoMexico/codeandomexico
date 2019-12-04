@@ -402,12 +402,12 @@
 					<img src="../img/partners/Logo_Microsoft.jpg" alt="" srcset="../img/partners/Logo_Microsoft.jpg">
 
 				</div>
-				<div class="col-md-3 align-self-center">
+				<div class="col-md-3 align-self-center surco">
 
 					<img src="../img/partners/surco.jpg" alt="" srcset="../img/partners/surco.jpg">
 
 				</div>
-				<div class="col-md-3 align-self-center">
+				<div class="col-md-3 align-self-center wpdis">
 
 					<img src="../img/partners/wpdi.png" alt="" srcset="../img/partners/wpdi.png">
 
