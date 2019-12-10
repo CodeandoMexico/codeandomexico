@@ -736,13 +736,13 @@ ul {
 }
 
 .wpdi {
-	width: 90%;
+	width: 90% !important;
 	margin-top: -55px;
 	margin-left: 18px;
 }
 
 .icoe {
-	width: 80%;
+	width: 80% !important;
 }
 
 .cdt {
