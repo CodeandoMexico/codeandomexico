@@ -731,21 +731,21 @@ ul {
 	padding: 115px 0;
 }
 
-.surco{
+.surco {
 	margin-top: -45px;
 }
 
-.wpdi{
-	width: 90%;
+.wpdi {
+	width: 90% !important;
 	margin-top: -55px;
 	margin-left: 18px;
 }
 
-.icoe{
-	width: 80%;
+.icoe {
+	width: 80% !important;
 }
 
-.cdt{
+.cdt {
 	margin-top: 25px;
 }
 
