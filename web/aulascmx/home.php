@@ -359,17 +359,17 @@
 			</div>
 			<div class="row">
 				<!-- single member  -->
-				<a><div class="col-sm-6">
+				<a href="https://medium.com/@codeandomexico/la-historia-de-rosa-ortega-mi-sue%C3%B1o-era-ser-programadora-c1c4c02d590f"><div class="col-sm-6">
 					<div class="member">
-						<img src="../img/avatar/1.jpeg" alt="">
+						<img src="../img/avatar/2.jpeg" alt="">
 						<h2>Rosa Ortega</h2>
 						<h3>Junior developer</h3>
 					</div>
 				</div></a>
 				<!-- single member  -->
-				<a><div class="col-sm-6">
+				<a href="https://medium.com/@codeandomexico/la-historia-de-ricardo-z%C3%BA%C3%B1iga-de-la-curiosidad-al-desarrollo-web-54ee63c65d61"><div class="col-sm-6">
 					<div class="member">
-						<img src="../img/avatar/2.jpeg" alt="">
+						<img src="../img/avatar/1.jpeg" alt="">
 						<h2>Ricardo Zúñiga</h2>
 						<h3>Junior developer</h3>
 					</div>
