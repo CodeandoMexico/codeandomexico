@@ -350,7 +350,7 @@
 	<!-- services section end -->
 
 
-	<!-- Team Section
+	<!-- Team Section -->
 	<div class="team-section spad">
 		<div class="overlay"></div>
 		<div class="container">
@@ -358,7 +358,7 @@
 				<h2>Get in <span>the Lab</span> and  meet the team</h2>
 			</div>
 			<div class="row">
-				<!-- single member
+				<!-- single member  -->
 				<div class="col-sm-4">
 					<div class="member">
 						<img src="img/team/1.jpg" alt="">
@@ -366,7 +366,7 @@
 						<h3>Project Manager</h3>
 					</div>
 				</div>
-				<!-- single member
+				<!-- single member  -->
 				<div class="col-sm-4">
 					<div class="member">
 						<img src="img/team/2.jpg" alt="">
@@ -374,7 +374,7 @@
 						<h3>Junior developer</h3>
 					</div>
 				</div>
-				<!-- single member
+				<!-- single member -->
 				<div class="col-sm-4">
 					<div class="member">
 						<img src="img/team/3.jpg" alt="">
@@ -385,7 +385,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- Team Section end
+	<!-- Team Section end -->
 
 
 	<!-- Promotion section -->
