@@ -361,7 +361,7 @@
 				<!-- single member  -->
 				<a><div class="col-sm-6">
 					<div class="member">
-						<img src="img/team/1.jpg" alt="">
+						<img src="../img/avatar/1.jpeg" alt="">
 						<h2>Rosa Ortega</h2>
 						<h3>Junior developer</h3>
 					</div>
@@ -369,7 +369,7 @@
 				<!-- single member  -->
 				<a><div class="col-sm-6">
 					<div class="member">
-						<img src="img/team/2.jpg" alt="">
+						<img src="../img/avatar/2.jpeg" alt="">
 						<h2>Ricardo Zúñiga</h2>
 						<h3>Junior developer</h3>
 					</div>
