@@ -399,7 +399,7 @@
                     </div>
                     <div class="col-md-8">
                         <div id="mc_embed_signup">
-                            <form action="https://codeandomexico.us13.list-manage.com/subscribe/post?u=b718eac0bff2cceb0807cc76b&amp;id=fe32cc91ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <form action="https://codeandomexico.us4.list-manage.com/subscribe/post?u=8658fe96e2775641cca7bafa1&amp;id=1ca7ab0778" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                     <div class="mc-field-group">
                                         <input class="inpt" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Correo Electrónico">
