@@ -2,8 +2,6 @@
 <img src="https://user-images.githubusercontent.com/6744123/26955582-3a94539e-4c7d-11e7-92cc-bc234bc2aeda.png" width="500" title="logo_codeando 1 -500">
 </p>
 
-![poster](https://user-images.githubusercontent.com/24925852/225991630-80fad7d8-3aff-4ce1-8c43-c8c8db89f270.png)
-
 [![website](https://img.shields.io/badge/website-CodeandoMexico-00D88E.svg)](http://www.codeandomexico.org/)
 [![slack](https://img.shields.io/badge/slack-CodeandoMexico-EC0E4F.svg)](http://slack.codeandomexico.org/)
 
